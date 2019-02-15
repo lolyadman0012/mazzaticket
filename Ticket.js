@@ -50,7 +50,7 @@ client.on("message", async message => {
  
  
 client.on("message", async message => {
-	var prefix = "$";
+	var prefix = "!";
          const nos = new Discord.RichEmbed()
      .setColor("22BF41");
   
@@ -84,7 +84,7 @@ client.on("message", async message => {
 });
  
 client.on("message", async message => {
-	var prefix = "$";
+	var prefix = "!";
      const nos = new Discord.RichEmbed()
      .setColor("22BF41");
 if(message.content.toLowerCase().startsWith(prefix + `new`)) {
@@ -190,7 +190,7 @@ if(message.content.toLowerCase().startsWith(prefix + `new`)) {
      .setDescription(`Dear ${message.author}, \n\nThank you for reaching out to our support team!\n\nWe will get back to you as soon as possible\n\n`)
      .addField('Subject' , subject)
      .setColor("22BF41")
-     .setFooter(`Nice-Ti v2 || By Sw3rD#0010` , client.user.avatarURL)
+     .setFooter(`Develore || By GoMGoM ||` , client.user.avatarURL)
      .setTimestamp();
             ticketx.send({embed: nonedear });
         }).catch(console.error);
@@ -198,11 +198,11 @@ if(message.content.toLowerCase().startsWith(prefix + `new`)) {
       }  
 }
  
- var prefix = "$";
+ var prefix = "!";
 if(message.content.toLowerCase().startsWith(prefix + `close`)) {   
     let team = message.member.roles.find("name", "Support Team");
      const d11x1xx = new Discord.RichEmbed()
-     .setDescription(":x: You do not have permission for that command! If you believe this is a mistake please add the role called \`\`? Élite » Team\`\` to yourself.")  
+     .setDescription(":x: You do not have permission for that command! If you believe this is a mistake please add the role called \`\`? Ã‰lite Â» Team\`\` to yourself.")  
      .setColor("22BF41");
     if(!team) return message.channel.send(d11x1xx);
          const d11x1xxNOT = new Discord.RichEmbed()
