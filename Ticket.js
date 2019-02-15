@@ -236,5 +236,9 @@ if(message.content.toLowerCase().startsWith(prefix + `close`)) {
  
 });
 
+client.on('ready', () => {
+client.user.setGame(`!new'ḾŘ ẒỂẒФ`);
+});
+
 
 client.login(process.env.BOT_TOKEN);
